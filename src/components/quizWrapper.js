@@ -4,7 +4,7 @@ import EndPage from "./endpage";
 import { useState } from "react";
 
 export default function QuizWrapper() {
-  const [page, setPage] = useState("endPage");
+  const [page, setPage] = useState("startPage");
   const [userName, setUserName] = useState("");
   const [score, setScore] = useState();
 
