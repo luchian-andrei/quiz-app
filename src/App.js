@@ -1,10 +1,10 @@
 import "./App.css";
-import QuestionTest from "./components/questions/QuestionTest";
+import QuizWrapper from "./components/quizWrapper";
 
 function App() {
   return (
     <div className="App">
-      <QuestionTest />
+      <QuizWrapper />
     </div>
   );
 }
