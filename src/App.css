@@ -159,3 +159,35 @@ body {
 }
 
 /* Question Page -end */
+
+@media (max-width: 800px) {
+  .App {
+    margin: 0;
+  }
+
+  .QuestionPage {
+    width: 70vw;
+    height: 80vh;
+  }
+
+  .StartPageWrapper {
+    width: 70vw;
+    height: 80vh;
+  }
+}
+
+@media (max-width: 500px) {
+  .App {
+    margin: 0;
+  }
+
+  .QuestionPage {
+    width: 90vw;
+    height: 80vh;
+  }
+
+  .StartPageWrapper {
+    width: 90vw;
+    height: 80vh;
+  }
+}
