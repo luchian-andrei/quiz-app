@@ -21,13 +21,13 @@ body {
 }
 
 .App {
-  margin-top: 20vh;
+  margin-top: 10vh;
 }
 
 /**  Start page  -start **/
 
 .StartPageWrapper {
-  width: 50vw;
+  width: 40vw;
   background-color: var(--second-color);
   color: var(--third-color);
   display: flex;
@@ -84,7 +84,7 @@ body {
 /* Question Page -start */
 
 .QuestionPage {
-  width: 50vw;
+  width: 40vw;
   background-color: var(--second-color);
   color: var(--third-color);
   display: flex;
