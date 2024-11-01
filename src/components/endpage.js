@@ -16,8 +16,6 @@ export default function EndPage({ handlePage, userName, score }) {
   const [message, setMessage] = useState("");
   const [icon, setIcon] = useState();
 
-  console.log(message);
-
   function messageProvider() {
     if (score === 0) {
       setMessage("You had your eyes closed ?");
