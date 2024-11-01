@@ -28,9 +28,6 @@ export default function QuestionPage({ handlePage, handleScore, userName }) {
     }
   }, [selectedAnswer]);
 
-  console.log(selectedAnswer);
-  console.log("score" + score);
-
   return (
     <div className="QuestionPage">
       <div className="question-header">
